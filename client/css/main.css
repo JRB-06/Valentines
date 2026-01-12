@@ -15,17 +15,16 @@ html{
 }
 body{
     min-height: 100vh;
-    background: #000000;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+    background: #ff0000;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 179, 1) 100%);
     background-size: contain;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     place-content: center;
     justify-content: center;
     align-items: center;
-
-
 }
+
 .container{
     margin-inline: auto;
     padding: 1rem;
@@ -41,6 +40,7 @@ body{
     font-size: clamp(2rem, 4vw, 5rem);
     text-align: center;
     font-weight: bolder;
+    color: white;
 }
 #invite{
     max-width: 400px;
@@ -48,7 +48,7 @@ body{
     max-height: 800px;
     height: 80%;
     border-radius: 2rem;
-    background: black;
+    background: white;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -66,4 +66,27 @@ body{
 #noButton:active{
     transition: transform 0.06s ease;
     transform: translate(80px, 250px);
+}
+@media (min-width: 769px){
+    body{
+    min-height: 100vh;
+    background: #ff0000;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 179, 1) 100%);
+    background-size: contain;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    }
+    #invite{
+        max-width: 400px;
+        width: 70%;
+        max-height: 800px;
+        height: 50%;
+    }
+    #noButton:active{
+        transition: transform 0.06s ease;
+        transform: translate(-80px, -250px);
+}
 }
