@@ -14,9 +14,12 @@ Features an API call thorough [Mapbox](https://www.mapbox.com/) that displays a 
 
 
 ## Development
-Developed with Vanilla HTML, CSS, and Javascript
+__Developed with Vanilla HTML, CSS, and Javascript__  
 <span>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height=100px width=100px/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" height=100px width=100px/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height=100px width=100px/>
 </span>
+
+__API used__  
+[Mapbox](https://www.mapbox.com/)
