@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script id="search-js" defer src="https://api.mapbox.com/search-js/v1.5.0/web.js"></script>
+    <link rel="stylesheet" href="../css/who.css">
+</head>
+<body>
+    <h1 id="who">Date Application</h1>
+    <div id="apply" class="container">
+        <form action="./where.html" id="form">
+            <label for="name">Name: </label>
+            <input type="text" id="name" required >
+            <label for="recipient">Recipient's Email: </label>
+            <input type="text" id="recipient" required placeholder="Gmail">
+            <label for="address">Address: </label>
+            <input type="text" id="address"required >
+            <label for="msg">Message: </label>
+            <textarea name="Message: " id="msg" rows="7" placeholder="Optional"></textarea>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+    <script src="../js/who.js"></script>
+</body>
+</html>
