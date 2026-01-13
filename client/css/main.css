@@ -63,21 +63,29 @@ body{
     display: flex;
     gap: 1rem;
 }
+#yesButton:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+#noButton:hover{
+    background-color: pink;
+    cursor: pointer;
+}
 #noButton:active{
     transition: transform 0.06s ease;
     transform: translate(80px, 250px);
 }
 @media (min-width: 769px){
     body{
-    min-height: 100vh;
-    background: #ff0000;
-    background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 179, 1) 100%);
-    background-size: contain;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    place-content: center;
-    justify-content: center;
-    align-items: center;
+        min-height: 100vh;
+        background: #ff0000;
+        background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 179, 1) 100%);
+        background-size: contain;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        place-content: center;
+        justify-content: center;
+        align-items: center;
     }
     #invite{
         max-width: 400px;
